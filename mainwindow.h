@@ -16,6 +16,11 @@ public:
     ~MainWindow();
 
 private:
+
     Ui::MainWindow *ui;
+public slots:
+    void pressNewGame();
+    void pressQuit();
+
 };
 #endif // MAINWINDOW_H
